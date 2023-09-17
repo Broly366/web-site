@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+}
+
+.main-page {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+.header,
+.first-box,
+.footer {
+    background-color: #1f2937;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+p,
+a {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+.logo {
+    font: 24px;
+    color: #f9faf8;
+}
+
+.call,
+button {
+    background-color: #3882f6;
+}
+
+.title-images {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.third-box {
+    background-color: #e5e7eb;
+}
+.quote .inspiring {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1f2937;
+
+}
