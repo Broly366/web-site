@@ -11,7 +11,12 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin: 0;
     min-height: 100vh;
+}
+
+img {
+    border-radius: 10px;
 }
 
 .header,
@@ -35,11 +40,26 @@ a {
 .logo {
     font: 24px;
     color: #f9faf8;
+    font-weight: bold;
 }
 
-.fourth-box,
+.call-to-action,
 button {
     background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 10px;
+    
+}
+button {
+    border-radius: 5px;
+    border: white solid 1px;
+    width: 15%;
+    height: 75%;
+}
+
+.title-call,
+button {
+    font-weight: bold;
 }
 
 .title-images {
@@ -51,11 +71,15 @@ button {
 .third-box {
     background-color: #e5e7eb;
 }
-.quote .inspiring {
+.quote.inspiring {
     font-size: 36px;
     font-weight: light;
     font-style: italic;
     color: #1f2937;
+}
+
+.copyright {
+    color: #f9faf8;
 }
 
 .header-1 {
@@ -77,6 +101,9 @@ button {
 
 .left {
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
     align-self: center;
     padding: 20px;
 }
@@ -88,16 +115,11 @@ button {
     align-items: center;
 }
 
+
 .center {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    height: 100%;
-}
-.second-box,
-.third-box,
-.fourth-box {
-    flex: 1;
+    justify-content: space-between
 }
 
 
@@ -106,39 +128,87 @@ button {
     display: flex;
     flex-direction: column;
     margin: 0;
+    padding: 10px;
 
 }
 
 .title-images {
     display: flex;
     justify-content: center;
+    padding: 15px;
 }
 .plants {
     display: flex;
+    align-items: center;
     justify-content: center;
 }
 
+.plant {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .right img {
-    width: 50%;
+    width: 25%;
     height: auto;
 }
 
 
 .plant img {
-    max-width: 100px;
+    max-width: 150px;
     height: auto;
 }
 
+.text {
+    width: 50%;
+}
+
 .third-box {
-    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 75px;
+}
+
+.quote {
+    max-width: fit-content;
+    align-self: center;
 }
 
 .fourth-box {
     display: flex;
-    flex: 1;
+    justify-content: center;
+    max-width: fit-content;
+    align-self: center;
+    padding: 75px;
+}
+.call-to-action {
+    display: flex;
+    padding: 30px;
+    gap: 30px;
 }
 
+.first-part {
+    display: flex;
+    flex-direction: column;
+}
 .footer {
-    justify-content: flex-end;
+    display: flex;
+    justify-content: center;
+   padding: 20px;
+}
+
+.first-box,
+.left,
+.right,
+.center,
+.second-box,
+.plants,
+.plant,
+.third-box,
+.fourth-box,
+.call-to-action,
+.first-part,
+.footer {
+    flex: 1 1 auto;
 }
